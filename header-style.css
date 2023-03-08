@@ -1,0 +1,27 @@
+#header{
+    background-color:#1c1c1c;
+    /* background: linear-gradient(black 60%,#021551); */
+    height:60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.header-logo{
+    margin-left: 20px;
+    width:20%;
+    font-family: 'Tilt Warp', cursive;
+}
+.header-navigator{
+    width: 80%;
+}
+.header-navigator ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.header-navigator li{
+    margin:0px 30px;
+}
+.header-navigator i{
+    margin-left: 5px;
+}

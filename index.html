@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>유효성 검사</title>
+    <link rel="stylesheet" href="global_style.css" />
+    <link rel="stylesheet" href="index_style.css" />
+    <link rel="stylesheet" href="header-style.css" />
+    <link rel="stylesheet" href="main-style.css" />
+    <link rel="stylesheet" href="footer-style.css" />
+    <script src="validator.js"></script>
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="header-logo">
+        <a href="#">CODE | STATES</a>
+      </div>
+      <div class="header-navigator">
+        <ul>
+          <li>
+            <a href="#">About<i class="fa-solid fa-chevron-down fa-xs"></i></a>
+          </li>
+          <li>
+            <a href="#">Class<i class="fa-solid fa-chevron-down fa-xs"></i></a>
+          </li>
+          <li><a href="#">Partner</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="main-contents">
+        <span>WITH <br />CODESTATES</span>
+        <span class="font-mid">Education for the real world</span>
+      </div>
+      <div class="main-contents">
+        <div class="main-contents_header">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="main-contents_login">
+          <img
+            class="logo"
+            src="./images/codestates-logo.png"
+            alt="CODE_STATES_LOGO"
+          />
+
+          <input type="text" id="username" placeholder="@codestates.com" />
+
+          <div class="success-message hide">사용할 수 있는 아이디입니다</div>
+          <div class="failure-message hide">
+            아이디는 네 글자 이상이어야 합니다
+          </div>
+          <div class="validator-message hide">
+            아이디 첫글자는 영어로 시작되어야 합니다.
+          </div>
+
+          <input type="password" id="password" placeholder="password" />
+
+          <input
+            type="password"
+            id="password-retype"
+            placeholder="Confirm password"
+          />
+
+          <div class="mismatch-message hide">비밀번호가 일치하지 않습니다</div>
+
+          <button class="signup">JOIN</button>
+
+          <div class="sign-message hide">모든 항목을 입력해야 합니다.</div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div class="footer-nav">
+        <div>
+          <a href="#"><span>COMPANY INTRODUCE</span></a>
+        </div>
+        <div>
+          <a href="#"><span>EMPLOYMENT</span></a>
+        </div>
+        <div>
+          <a href="#"><span>REVIEW</span></a>
+        </div>
+        <div>
+          <a href="#"><span>COMMUNITY</span></a>
+        </div>
+      </div>
+      <div class="footer-icons">
+        <a href="#"><i class="fi fi-brands-instagram"></i></a>
+        <a href="#"><i class="fi fi-brands-facebook"></i></a>
+        <a href="#"><i class="fi fi-brands-youtube"></i></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b6b675a5b4.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

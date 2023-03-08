@@ -1,0 +1,117 @@
+#main{
+  flex: 1;
+  display: flex;
+  display: flex;
+  align-items: center;
+  padding:20px;
+  background-color: black;
+}
+
+.main-contents:first-child{
+  width:920px;
+  font-family: 'Climate Crisis', cursive;
+  font-size: 85px;
+  color:white;
+  animation: fadein .3s linear;
+}
+
+@keyframes fadein{
+  from{
+      transform:translateX(-200px);
+      opacity: 0;
+  }
+  to{
+      transform:none;
+      opacity: 1;
+  }
+}
+.font-mid{
+  font-size: 35px;
+}
+.main-contents:last-child{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 610px;
+  width:537px;
+  font-size: 16px;
+  background-color: #F1EEE8;
+  border-radius: 8px;
+}
+.main-contents_header{
+  background-color: #2B2B2B;
+  height: 25px;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+.circle{
+  width:10px;
+  height: 10px;
+  background-color: #C8C8C8;
+  border-radius: 50%;
+  margin-left:5px;
+}
+.logo{
+  /* margin: 12px auto 36px; */
+  padding:15px;
+  width: 220px;
+  margin: 75px 0 40px 0;
+}
+.main-contents_login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  box-shadow: var(--big-box);
+  border: 1px solid var(--gray-10);
+  border-radius: 4px;
+  height: 615px;
+  width:537px;
+
+}
+.main-contents_login > div {
+  color: var(--peach-600);
+  font-size: 12px;
+  /* padding-left:13px; */
+  margin-top:5px;
+}
+.main-contents_login .success-message{
+  color:green;
+}
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  width: 400px;
+  height: 40px;
+  margin-top:30px;
+  color: white;
+  background-color: #2B2B2B;
+  font-size: 14px;
+  transition: all 0.3s;
+  font-family: 'Montserrat', sans-serif;
+}
+button:hover {
+  background-color: #575656;
+}
+input {
+  color:#2B2B2B;
+  border: none;
+  width: 400px;
+  height: 40px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  outline-color:rgba(55, 54, 54, 0.1);
+  transition:.5s all ease-in-out;
+}
+
+input:focus {
+  outline-color: #3a3a3a;    
+}

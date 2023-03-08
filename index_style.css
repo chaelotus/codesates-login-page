@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Montserrat:wght@200&family=Tilt+Warp&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+    color:white
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.hide {
+    display: none;
+  }

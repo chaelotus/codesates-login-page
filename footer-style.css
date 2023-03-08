@@ -1,0 +1,24 @@
+#footer{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width:100%;
+    height: 90px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-nav{
+    width:90%;
+    display: flex;
+}
+.footer-nav a{
+    margin: 0 30px;
+}
+.footer-icons{
+    font-size: 25px;
+    color:white;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+.footer-icons a{
+    margin-left:10px;
+}
