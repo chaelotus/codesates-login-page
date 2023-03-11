@@ -5,5 +5,4 @@
 
 <br/>
 
-### 2. 페이지 구성
 <img width="1512" alt="스크린샷 2023-03-09 오전 1 13 37" src="https://user-images.githubusercontent.com/72354092/223785961-0c835e32-0a4e-4813-bf95-15c5e4378d71.png">
